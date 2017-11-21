@@ -8,4 +8,3 @@ In this project I am using Ruby on Rails, HTML and CSS.
 
 ## About Project
 --
-#my-mind-map
