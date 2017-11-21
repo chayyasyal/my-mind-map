@@ -1,0 +1,63 @@
+<h1>How are you feeling today?</h1>
+
+<%= form_with scope: :responses, url: responses_path, local: true do |form| %>
+<p>
+<%=form.label :"If you had to describe your day as weather report
+what would it be like?" %><br>
+</p>
+
+<p>
+    <%= form.label :answer %><br>
+    <%= form.text_area :answer %>
+  </p>
+
+  <p>
+  <%=form.label :"What was the best thing that happened to you today?" %><br>
+  </p>
+
+  <p>
+      <%= form.label :answer %><br>
+      <%= form.text_area :answer %>
+    </p>
+
+    <p>
+    <%=form.label :"How did it make you feel?" %><br>
+    </p>
+
+    <p>
+        <%= form.label :answer %><br>
+        <%= form.text_area :answer %>
+      </p>
+
+      <p>
+      <%=form.label :"Did you have any low points today?(if yes
+      please answer the next question)" %><br>
+      </p>
+
+      <p>
+          <%= form.label :answer %><br>
+          <%= form.text_area :answer %>
+        </p>
+
+        <p>
+        <%=form.label :"What happened?" %><br>
+        </p>
+
+        <p>
+            <%= form.label :answer %><br>
+            <%= form.text_area :answer %>
+          </p>
+
+          <p>
+          <%=form.label :"How are you feeling right now?" %><br>
+          </p>
+
+          <p>
+              <%= form.label :answer %><br>
+              <%= form.text_area :answer %>
+            </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
