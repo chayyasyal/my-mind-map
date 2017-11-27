@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  age: MyString
+  location: MyString
+  gender: MyString
+  ethnicity: MyString
+  weather_report: MyText
+  best_thing_today: MyText
+  feels: MyText
+  any_low_points: MyText
+  what_happened: MyText
+  feels_right_now: MyText
+
+two:
+  age: MyString
+  location: MyString
+  gender: MyString
+  ethnicity: MyString
+  weather_report: MyText
+  best_thing_today: MyText
+  feels: MyText
+  any_low_points: MyText
+  what_happened: MyText
+  feels_right_now: MyText
